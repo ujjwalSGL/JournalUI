@@ -65,10 +65,18 @@ body {
 .login-btn {
     background-color: #000;
 }
-
 .signup-btn {
+    display: inline-block;
+    padding: 10px 20px;
     background-color: #000;
     color: #fff;
+    border-radius: 5px;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #444;
 }
 
 .hero-section {
